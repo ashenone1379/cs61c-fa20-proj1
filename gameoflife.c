@@ -5,7 +5,7 @@
 ** DESCRIPTION: CS61C Fall 2020 Project 1
 **
 ** AUTHOR:      Justin Yokota - Starter Code
-**				YOUR NAME HERE
+**				Huang Qingyun
 **
 **
 ** DATE:        2020-08-23
@@ -47,7 +47,9 @@ Make sure to free all memory before returning!
 
 You may find it useful to copy the code from steganography.c, to start.
 */
-int main(int argc, char **argv)
-{
-	//YOUR CODE HERE
+int main(int argc, char **argv) {
+    //YOUR CODE HERE
+    Image* p = readData("testInputs/test.ppm");
+
+    return 0;
 }
