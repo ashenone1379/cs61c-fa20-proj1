@@ -9,3 +9,8 @@ add_executable(test-imageloader
         imageloader.c
         imageloader.h
 )
+add_executable(imageloader
+        imageloadertester.c
+        imageloader.h
+        imageloader.c
+)

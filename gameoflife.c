@@ -49,7 +49,8 @@ You may find it useful to copy the code from steganography.c, to start.
 */
 int main(int argc, char **argv) {
     //YOUR CODE HERE
-    Image* p = readData("testInputs/test.ppm");
+    // Image* p = readData("testInputs/jc.ppm");
 
+	// writeData(p);
     return 0;
 }
