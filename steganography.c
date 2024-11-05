@@ -71,10 +71,12 @@ int main(int argc, char **argv) {
 
     Image *img = readData(argv[1]);
 
-    img = steganography(img);
+    Image *result_img = steganography(img);
 
-    writeData(img);
+    writeData(result_img);
 
-    free(img);
+    freeImage(img);
+    freeImage(result_img);
+
     return 0;
 }

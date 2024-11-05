@@ -81,4 +81,5 @@ void freeImage(Image *image) {
         free(colors[i]);
     }
     free(colors);
+    free(image);
 }
